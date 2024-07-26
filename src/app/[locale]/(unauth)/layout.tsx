@@ -12,6 +12,8 @@ export default function Layout(props: {
   unstable_setRequestLocale(props.params.locale);
   const t = useTranslations('RootLayout');
 
+  return props.children;
+
   return (
     <BaseTemplate
       leftNav={
