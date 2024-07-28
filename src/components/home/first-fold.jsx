@@ -48,7 +48,7 @@ function FirstFold() {
                         style={{
                             background:
                                 "linear-gradient(to top, #869d96, #0ad4de)",
-                            webkitBackgroundClip: "text",
+                            WebkitBackgroundClip: "text",
                             backgroundClip: "text",
                             color: "transparent",
                         }}
