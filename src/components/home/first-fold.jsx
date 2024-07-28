@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Fade, Slide, Flip, Hinge, Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { TypeAnimation } from "react-type-animation";
 import Slider from "./slider";
 import Header from "./header";
@@ -48,8 +48,8 @@ function FirstFold() {
                         style={{
                             background:
                                 "linear-gradient(to top, #869d96, #0ad4de)",
-                            "-webkit-background-clip": "text",
-                            "background-clip": "text",
+                            webkitBackgroundClip: "text",
+                            backgroundClip: "text",
                             color: "transparent",
                         }}
                     >
